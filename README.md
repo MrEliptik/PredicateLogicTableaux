@@ -34,6 +34,14 @@ And finally derive it and print the solution(s) :
     # Print the solutions
     print('Solution for ex 1 : ' + pt.__str__())
     
+The solution are printed or a message indicate that the tree is exhausted if no solutions were found :
+
+    Solution for ex 1 : [￢p, ￢q, ￢p]
+    
+or 
+
+    Tree is exhausted, no solution
+    
 # TODO
 
 - Find all solutions (the program only returns maximum 1 solution)
